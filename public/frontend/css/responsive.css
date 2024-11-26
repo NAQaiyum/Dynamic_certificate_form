@@ -1,0 +1,331 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #controleer .container {
+        width: 750px;
+    }
+    .controleer-item {
+        padding: 10px;
+        width: 100%;
+    }
+    .pa {
+        left: 0;
+    }
+    .pa>img {
+        width: 55px;
+    }
+    .brand-logo-item img {
+        margin: 0px 10px;
+    }
+    .footer-menu a {
+        padding: 5px;
+    }
+    .footer-contact p {
+        padding: 5px 10px;
+    }
+    .display-block-mobile {
+        display: none;
+    }
+    .content-area {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #controleer .container {
+        width: 100%;
+    }
+    #header-top {
+        position: relative;
+    }
+    .logo {
+        display: inline-block;
+        padding: 25px 15px 15px 15px;
+        text-align: left;
+    }
+    .logo>a {
+        font-size: 16px;
+    }
+    .logo.text-left a img {
+        height: 19px;
+        width: 30px;
+        margin-right: 6px;
+        position: relative;
+        top: -3px;
+    }
+    .header-contact {
+        display: none;
+    }
+    #banner {
+        min-height: 400px;
+    }
+    .sub-top h1 {
+        font-size: 25px;
+    }
+    .sub-top li {
+        font-size: 10px;
+        margin: 3px;
+    }
+    .sub-form {
+        margin: auto;
+        padding: 50px 15px 20px;
+        width: 85%;
+    }
+    .sub-form>p {
+        font-size: 13px;
+        padding-bottom: 0;
+        width: 95%;
+    }
+    .sub-form p img {
+        left: 0px;
+        top: -5px;
+        width: 20px;
+    }
+    .subscribe {
+        margin: 20px auto 0;
+        width: 100%;
+    }
+    .sub-form {
+        margin: auto;
+        padding: 50px 20px 20px;
+        width: 85%;
+    }
+    .inputgroup {
+        position: relative;
+        height: 60px;
+        margin: auto;
+        width: 90%;
+    }
+    .sub-form label {
+        padding: 20px 10px 0;
+    }
+    .sub-form label.failedtofind {
+        padding: 0 3px 3px 3px;
+        margin-left: 5%;
+        margin-top: 20px;
+        margin-bottom: 5px !important;
+    }
+    .sub-form form input {
+        border-radius: 3px;
+        min-height: 100%;
+        width: 100%;
+        padding: 0 5px 0 15px;
+        font-size: 28px;
+    }
+    .sub-form button {
+        margin: 20px auto 10px;
+        padding: 15px 0px;
+        height: auto;
+        border-radius: 5px;
+        width: 155px;
+    }
+    .section-titile h2 {
+        font-size: 22px;
+    }
+    .controleer-item-top {
+        padding: 10px;
+    }
+    .controleer-item {
+        padding: 2px;
+        text-align: center;
+        width: 100%;
+        min-height: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    .controleer-list li {
+        display: inline-block;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .controleer-list {
+        margin: 0 0 15px;
+    }
+    .controleer-list img {
+        margin-right: 5px;
+        width: 12px;
+        height: auto;
+    }
+    .controleer-item>p {
+        display: none;
+    }
+    .controleer-item .controleer-button {
+        display: none;
+    }
+    .controleer-item-top img {
+        width: 45px;
+        height: 35px;
+    }
+    .controleer-item-top h3 {
+        display: inline-block;
+        font-size: 16px;
+        padding: 0 7px;
+        position: relative;
+        top: 8px;
+    }
+    .pa,
+    .display-None-mobile {
+        left: 0;
+        display: none;
+    }
+    .display-block-mobile {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .brand-logo-item img.displayNone {
+        display: none;
+    }
+    .brand-logo-item img {
+        margin: 10px 5px;
+    }
+    .footer-menu a {
+        padding: 5px;
+    }
+    .footer-contact p {
+        padding: 5px 10px;
+        display: inline-block;
+    }
+    #footer {
+        text-align: center;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    html:not(.with-modernizr) .about-banner {
+        background: transparent url("../img/background.jpg") no-repeat scroll 0 -35px /cover;
+        min-height: 15px;
+    }
+    html.with-modernizr.webp .about-banner {
+        background: transparent url("../img/background.webp") no-repeat scroll 0 -35px /cover;
+        min-height: 15px;
+    }
+    html.with-modernizr.no-webp .about-banner,
+    html.with-modernizr.no-js .about-banner {
+        background: transparent url("../img/banner.jpg") no-repeat scroll 0px/cover;
+        min-height: 15px;
+    }
+    .content-area {
+        width: 90%;
+    }
+    .resturent {
+        width: auto;
+        left: -20px;
+    }
+    .resturent>h2 {
+        font-size: 17px;
+        padding: 10px;
+    }
+    .content-input h2 {
+        width: 80%;
+        font-size: 30px;
+    }
+    .cbox-single-item table a {
+        font-size: 8px;
+    }
+    .cbox-single-item table tr td:nth-child(1) {
+        font-size: 11px;
+        padding: 5px;
+        width: 50%;
+    }
+    .cbox-single-item table tr td:nth-child(2) {
+        display: none;
+    }
+    .cbox-single-item table tr td:nth-child(3) {
+        width: 30%;
+        padding: 5px;
+    }
+    .cbox-single-item table tr td:nth-child(4) {
+        width: 20%;
+        font-size: 11px;
+        padding: 5px;
+    }
+    .icon_schadeverleden {
+        width: 59px !important;
+        height: 28px !important;
+    }
+    .icon_kmstand {
+        width: 30px !important;
+        height: 28px !important;
+    }
+    .icon_eigenaren {
+        width: 26px !important;
+        height: 28px !important;
+    }
+    .content-box {
+        padding-top: 0;
+    }
+    .mobiletopmargin {
+        margin-top: 60px;
+    }
+    .footer-menu li {
+        display: block;
+        margin-top: 10px;
+    }
+    /*.footer-menu li:first-child{margin-top:0;}*/
+    .footer-contact {
+        margin: auto;
+        margin-top: 10px;
+    }
+    #kentekenselect {
+        margin-top: -15px;
+    }
+    #choiceselect {
+        margin-top: 20px;
+    }
+    .cbox-single-item {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .cbox-single-item td {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .popup-item img {
+        width: 14px;
+        height: 14px;
+    }
+    .rapport-progress {
+        max-width: 90%;
+        margin-top: 15px;
+    }
+    .rapport-progress .rapport-progress-inner {
+        font-size: 10px;
+    }
+    #about-content {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .sub-form {
+        margin: auto;
+        padding: 60px 20px 25px;
+        width: 325px;
+    }
+    .subscribe {
+        margin: 20px auto 0;
+        width: 85%;
+    }
+    .inputgroup {
+        position: relative;
+        width: 280px;
+        height: 60px;
+        margin: auto;
+    }
+    .sub-form>p {
+        font-size: 13px;
+        padding-bottom: 0;
+        width: 75%;
+    }
+    .sub-form label {
+        padding: 20px 5px 0;
+    }
+    .sub-form label.failedtofind {
+        padding: 0 3px 3px 3px;
+        margin-bottom: 5px !important;
+        margin-left: 0;
+    }
+}

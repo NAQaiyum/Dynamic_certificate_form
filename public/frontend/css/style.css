@@ -1,0 +1,277 @@
+
+header {
+    background-color: #044c84;
+    color: #ffffff;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .nav-link{
+    color: #ffffff !important;
+}
+
+/* Add the following CSS for the sticky header on scroll */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+/* Custom styles for the contact form */
+.contact-form {
+    background-color: #f1f1f1; /* Change to your desired form background color */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007BFF; /* Change to your desired button background color */
+    border-color: #007BFF;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change to your desired hover button background color */
+    border-color: #0056b3;
+}
+
+/* Custom styles for the footer */
+.footer {
+    background-color: #ffffff; /* Footer background color */
+    color: #000000; /* Text color is white */
+    padding: 50px 0;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+/* Add your own styles for social media icons here */
+.footer .social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Style for the footer address */
+.footer-address {
+    margin-top: 20px;
+}
+.footer a {
+color: #000;
+}
+.navbar-brand{
+    color: #ffffff !important;
+}
+
+/* Blog section styles */
+.blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.blog-post h5 {
+    margin-top: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 0;
+}
+
+
+.main-content {
+background-color: #f1f1f1;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+
+.form-group label {
+font-weight: bold;
+}
+
+.form-control {
+border-radius: 5px;
+}
+
+.btn-primary {
+background-color: #007BFF;
+border-color: #007BFF;
+}
+
+.btn-primary:hover {
+background-color: #0056b3;
+border-color: #0056b3;
+}
+
+/* Custom styles for the services section */
+.services {
+margin-top: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+
+/* Custom styles for the office location */
+.office-location {
+margin-top: 20px;
+}
+
+.map {
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+.custom-btn {
+background-color: #454545;
+color: #fff; /* Text color */
+}
+
+/* dashboard */
+.navbar {
+    background-color: #0e0c28;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+.nav-link {
+color: white !important;
+}
+.nav-link:hover {
+background-color: #f28936;
+color: white !important;
+}
+
+/* .navbar-nav .nav-link {
+    background-color: #0e0c28 !important;
+    color: white !important;
+    padding: 10px 15px;
+    border-radius: 0;
+} */
+
+#sidebar {
+    background-color: #0e0c28 !important;
+    color: white;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.main-content {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-1 {
+    background-color: #dbdeff;
+    border: 1px solid #e3e3e3;
+}
+
+.card-2 {
+    background-color: #ffdbe6;
+    border: 1px solid #e3e3e3;
+}
+
+/* Add custom styles for the graph and table */
+.graph-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style the table */
+.data-table {
+    width: 100%;
+}
+
+.data-table th, .data-table td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #0e0c28;
+    color: white;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.num{
+    font-family: "br_firmablack", Helvetica, Arial, sans-serif;
+}
